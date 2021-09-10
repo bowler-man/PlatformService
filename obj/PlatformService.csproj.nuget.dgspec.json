@@ -45,31 +45,31 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "automapper.extensions.microsoft.dependencyinjection": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
             },
-            "microsoft.entityframeworkcore": {
+            "Microsoft.EntityFrameworkcore": {
               "target": "Package",
               "version": "[5.0.9, )"
             },
-            "microsoft.entityframeworkcore.InMemory": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            },
-            "microsoft.entityframeworkcore.design": {
+            "Microsoft.EntityFrameworkcore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.9, )"
             },
-            "microsoft.entityframeworkcore.sqlserver": {
+            "Microsoft.EntityFrameworkcore.InMemory": {
               "target": "Package",
               "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkcore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
